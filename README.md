@@ -8,7 +8,7 @@
 
 [![License](https://img.shields.io/pypi/l/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
 
-[![Cloudflare Turnstile](https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/source/_static/logo.svg)](https://www.cloudflare.com/products/turnstile/)
+[![Cloudflare Turnstile](https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/source/_static/logo.svg)](https://www.cloudflare.com/products/turnstile/)
 
 An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) service with Plone
 
@@ -22,17 +22,17 @@ An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/product
 
 **Add-on Configuration Access**
 
-<img width="290" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png" alt="Add-on Configuration">
+<img width="290" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png" alt="Add-on Configuration">
 
 ---
 
 **Cloudflare Turnstile Settings control panel**
 
-<img width="720" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/images/cloudflare-turnstile-settings.png" alt="Cloudflare Turnstile Settings">
+<img width="720" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/cloudflare-turnstile-settings.png" alt="Cloudflare Turnstile Settings">
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/macagua/volto-turnstile
+To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-turnstile
 
 ## Translations
 
@@ -123,7 +123,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/images/imd-ayto-logo.svg" alt="IMD Logo">
+  <img width="200" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/imd-ayto-logo.svg" alt="IMD Logo">
 
 ### Acknowledgements 🙏
 
@@ -137,7 +137,7 @@ This product was developed by Leonardo J. Caballero G. [leonardocaballero@gmail.
 
 ### Contributors
 
-You can see a list of contributors in the [CONTRIBUTORS.md](https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/CONTRIBUTORS.md) file.
+You can see a list of contributors in the [CONTRIBUTORS.md](https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/CONTRIBUTORS.md) file.
 
 ## License
 
