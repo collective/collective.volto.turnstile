@@ -1,8 +1,14 @@
 # collective.volto.turnstile
 
-[![collective.volto.turnstile CI](https://github.com/macagua/collective.volto.turnstile/actions/workflows/ci.yml/badge.svg)](https://github.com/macagua/collective.volto.turnstile/actions/workflows/ci.yml)
+[![Latest Version](https://img.shields.io/pypi/v/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
 
-[![Cloudflare Turnstile](https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/docs/_static/logo.svg)](https://acumbamail.com/)
+[![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.turnstile.svg?style=plastic)](https://pypi.org/project/collective.volto.turnstile/)
+
+[![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
+
+[![License](https://img.shields.io/pypi/l/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
+
+[![Cloudflare Turnstile](https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/source/_static/logo.svg)](https://www.cloudflare.com/products/turnstile/)
 
 An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) service with Plone
 
@@ -16,7 +22,7 @@ An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/product
 
 **Add-on Configuration Access**
 
-<img width="290" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-acumbamail-icon.png" alt="Add-on Configuration">
+<img width="290" alt="image" src="https://raw.githubusercontent.com/macagua/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png" alt="Add-on Configuration">
 
 ---
 
@@ -57,6 +63,7 @@ make create-site
 
 - [Issue tracker](https://github.com/collective/collective.volto.turnstile/issues)
 - [Source code](https://github.com/collective/collective.volto.turnstile/)
+- [Documentation](https://collectivevoltoturnstile.readthedocs.io/)
 
 ### Prerequisites ✅
 

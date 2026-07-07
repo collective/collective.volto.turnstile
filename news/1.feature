@@ -1,0 +1,1 @@
+Updated the add-on documentation [macagua]

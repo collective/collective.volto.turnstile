@@ -18,7 +18,7 @@ This part of the documentation contains how-to guides, including installation an
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-acumbamail
+To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-turnstile
 
 ## Translations
 
