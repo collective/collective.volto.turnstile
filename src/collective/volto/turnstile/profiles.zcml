@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.volto.turnstile"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Cloudflare Turnstile integration with Plone: Install"
+      description="Package to configure a new Cloudflare Turnstile integration with Plone site"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Cloudflare Turnstile integration with Plone: Uninstall"
+      description="Uninstall Cloudflare Turnstile integration with Plone setup."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <!-- Hide Uninstall Profile-->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="collective.volto.turnstile"
+      />
+
+
+  <include package=".upgrades" />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>

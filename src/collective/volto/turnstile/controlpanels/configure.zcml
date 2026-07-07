@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.volto.turnstile"
+    >
+
+  <!-- Register the control panel adapter for the 'Cloudflare Turnstile' settings. -->
+  <browser:page
+      name="cloudflare-turnstile-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".cloudflare_turnstile_settings.CloudflareTurnstileControlPanel"
+      permission="volto.turnstile.ManageCloudflareTurnstileSettings"
+      layer="collective.volto.turnstile.interfaces.ICloudflareTurnstileLayer"
+      />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</configure>

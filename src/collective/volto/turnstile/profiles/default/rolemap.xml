@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rolemap>
+  <roles>
+    <!-- 'Cloudflare Turnstile' role -->
+    <role name="Cloudflare Turnstile" />
+  </roles>
+
+  <permissions>
+
+    <!-- This is needed to access 'Cloudflare Turnstile settings' controlpanel -->
+    <permission acquire="True"
+                name="Plone Site Setup: Overview"
+    >
+      <role name="Manager" />
+      <role name="Site Administrator" />
+      <role name="Cloudflare Turnstile" />
+    </permission>
+
+    <!-- Manage 'Cloudflare Turnstile' Settings role mapping -->
+    <permission acquire="True"
+                name="volto.turnstile: Manage Cloudflare Turnstile Settings"
+    >
+      <role name="Cloudflare Turnstile" />
+    </permission>
+    <!-- -*- extra stuff goes here -*- -->
+
+  </permissions>
+</rolemap>

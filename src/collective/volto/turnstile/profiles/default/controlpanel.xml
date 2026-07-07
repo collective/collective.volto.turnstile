@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        name="portal_controlpanel"
+        purge="False"
+        i18n:domain="collective.volto.turnstile"
+>
+
+  <!-- 'Cloudflare Turnstile' Settings -->
+  <configlet action_id="CloudflareTurnstileSettings"
+             appId="CloudflareTurnstileSettings"
+             category="Products"
+             condition_expr=""
+             icon_expr="string:cloud"
+             title="Cloudflare Turnstile Settings"
+             url_expr="string:${portal_url}/@@cloudflare-turnstile-settings"
+             visible="True"
+             i18n:attributes="title"
+  >
+    <permission>volto.turnstile: Manage Cloudflare Turnstile Settings</permission>
+  </configlet>
+
+  <!-- -*- extra stuff goes here -*- -->
+
+</object>

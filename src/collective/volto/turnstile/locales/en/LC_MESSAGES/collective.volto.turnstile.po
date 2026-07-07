@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-07-07 10:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.volto.turnstile\n"
+
+#: collective/volto/turnstile/controlpanels/cloudflare_turnstile_settings.py:10
+#: collective/volto/turnstile/profiles/default/controlpanel.xml
+msgid "Cloudflare Turnstile Settings"
+msgstr ""
+
+#: collective/volto/turnstile/profiles.zcml:14
+msgid "Cloudflare Turnstile integration with Plone: Install"
+msgstr ""
+
+#: collective/volto/turnstile/profiles.zcml:22
+msgid "Cloudflare Turnstile integration with Plone: Uninstall"
+msgstr ""
+
+#: collective/volto/turnstile/controlpanels/cloudflare_turnstile_settings.py:11
+msgid "Define the credentials parameters for Cloudflare Turnstile."
+msgstr ""
+
+#: collective/volto/turnstile/profiles.zcml:14
+msgid "Package to configure a new Cloudflare Turnstile integration with Plone site"
+msgstr ""
+
+#: collective/volto/turnstile/interfaces.py:28
+msgid "Secret Key"
+msgstr ""
+
+#: collective/volto/turnstile/interfaces.py:22
+msgid "Site Key"
+msgstr ""
+
+#: collective/volto/turnstile/interfaces.py:29
+msgid "The Secret Key of the Cloudflare Turnstile service."
+msgstr ""
+
+#: collective/volto/turnstile/interfaces.py:23
+msgid "The Site Key of the Cloudflare Turnstile service."
+msgstr ""
+
+#: collective/volto/turnstile/profiles.zcml:22
+msgid "Uninstall Cloudflare Turnstile integration with Plone setup."
+msgstr ""
