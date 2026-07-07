@@ -1,8 +1,6 @@
 """Test JSONSummarySerializerMetadata."""
 
-from collective.volto.turnstile.serializers.summary import (
-    JSONSummarySerializerMetadata,
-)
+from collective.volto.turnstile.serializers.summary import JSONSummarySerializerMetadata
 from plone.restapi.interfaces import IJSONSummarySerializerMetadata
 from zope.interface.verify import verifyClass
 from zope.interface.verify import verifyObject

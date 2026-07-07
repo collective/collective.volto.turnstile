@@ -1,6 +1,8 @@
-from plone.restapi.controlpanels import RegistryConfigletPanel
 from collective.volto.turnstile.interfaces import ICloudflareTurnstileSettings
-from collective.volto.turnstile.interfaces import ICloudflareTurnstileSettingsControlpanel
+from collective.volto.turnstile.interfaces import (
+    ICloudflareTurnstileSettingsControlpanel,
+)
+from plone.restapi.controlpanels import RegistryConfigletPanel
 from zope.component import adapter
 from zope.interface import implementer
 from zope.interface import Interface
