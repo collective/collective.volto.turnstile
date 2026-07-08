@@ -1,6 +1,7 @@
 from collective.volto.turnstile.testing import ACCEPTANCE_TESTING
 from collective.volto.turnstile.testing import FUNCTIONAL_TESTING
 from collective.volto.turnstile.testing import INTEGRATION_TESTING
+from collective.volto.turnstile.testing import RESTAPI_TESTING
 from pytest_plone import fixtures_factory
 
 
@@ -12,5 +13,6 @@ globals().update(
         (ACCEPTANCE_TESTING, "acceptance"),
         (FUNCTIONAL_TESTING, "functional"),
         (INTEGRATION_TESTING, "integration"),
+        (RESTAPI_TESTING, "restapi"),
     ))
 )
