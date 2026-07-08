@@ -22,13 +22,13 @@ An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/product
 
 **Add-on Configuration Access**
 
-<img width="290" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png" alt="Add-on Configuration">
+<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png">
 
 ---
 
 **Cloudflare Turnstile Settings control panel**
 
-<img width="720" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/cloudflare-turnstile-settings.png" alt="Cloudflare Turnstile Settings">
+<img width="720" alt="Cloudflare Turnstile Settings" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/cloudflare-turnstile-settings.png">
 
 ## Volto integration
 
@@ -123,7 +123,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="image" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/imd-ayto-logo.svg" alt="IMD Logo">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/imd-ayto-logo.svg">
 
 ### Acknowledgements 🙏
 
@@ -131,9 +131,9 @@ Generated using [Cookieplone (0.9.10)](https://github.com/plone/cookieplone) and
 
 ## Authors
 
-This product was developed by Leonardo J. Caballero G. [leonardocaballero@gmail.com].
+This product was developed by [Leonardo J. Caballero G.](https://github.com/macagua).
 
-<img width="100" alt="image" src="https://avatars.githubusercontent.com/u/185395?v=4&size=100" alt="Leonardo J. Caballero G.">
+<img width="100" alt="Leonardo J. Caballero G." src="https://avatars.githubusercontent.com/u/185395?v=4&size=100">
 
 ### Contributors
 
