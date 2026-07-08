@@ -1,16 +1,10 @@
 # collective.volto.turnstile
 
-[![Latest Version](https://img.shields.io/pypi/v/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
-
-[![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.turnstile.svg?style=plastic)](https://pypi.org/project/collective.volto.turnstile/)
-
-[![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
-
-[![License](https://img.shields.io/pypi/l/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
+[![Latest Version](https://img.shields.io/pypi/v/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/) [![Supported - Python Versions](https://img.shields.io/pypi/pyversions/collective.volto.turnstile.svg?style=plastic)](https://pypi.org/project/collective.volto.turnstile/) [![Number of PyPI downloads](https://img.shields.io/pypi/dm/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/) [![License](https://img.shields.io/pypi/l/collective.volto.turnstile.svg)](https://pypi.org/project/collective.volto.turnstile/)
 
 [![Cloudflare Turnstile](https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/source/_static/logo.svg)](https://www.cloudflare.com/products/turnstile/)
 
-An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) service with Plone
+An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/) service with Plone.
 
 ## Features
 
