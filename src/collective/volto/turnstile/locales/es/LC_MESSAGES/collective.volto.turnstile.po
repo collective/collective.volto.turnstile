@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.volto.turnstile\n"
 "POT-Creation-Date: 2026-07-07 10:46+0000\n"
-"PO-Revision-Date: 2026-07-07 12:57+0200\n"
+"PO-Revision-Date: 2026-07-08 15:03+0200\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "Language: es\n"
@@ -26,11 +26,11 @@ msgstr "Configuración de Cloudflare Turnstile"
 
 #: collective/volto/turnstile/profiles.zcml:14
 msgid "Cloudflare Turnstile integration with Plone: Install"
-msgstr "Integración de Cloudflare Turnstile con Plone: Instalar"
+msgstr "Volto: Integración de Cloudflare Turnstile con Plone: Instalar"
 
 #: collective/volto/turnstile/profiles.zcml:22
 msgid "Cloudflare Turnstile integration with Plone: Uninstall"
-msgstr "Integración de Cloudflare Turnstile con Plone: Desinstalar"
+msgstr "Volto: Integración de Cloudflare Turnstile con Plone: Desinstalar"
 
 #: collective/volto/turnstile/controlpanels/cloudflare_turnstile_settings.py:11
 msgid "Define the credentials parameters for Cloudflare Turnstile."
