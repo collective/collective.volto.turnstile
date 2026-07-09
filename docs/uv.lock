@@ -159,7 +159,7 @@ wheels = [
 ]
 
 [[package]]
-name = "cloudflare-turnstile-integration-with-plone-documentation"
+name = "collective-volto-turnstile-documentation"
 version = "1.0.0"
 source = { editable = "." }
 

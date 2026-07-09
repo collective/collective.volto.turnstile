@@ -1,26 +1,33 @@
 [project]
-name = "Cloudflare_Turnstile_integration_with_Plone_Documentation"
+name = "collective_volto_turnstile_documentation"
 description = "An integration for the Cloudflare Turnstile service with Plone"
-keywords = [
-    "Cloudflare Turnstile",
-    "integration",
-    "documentation",
-    "Plone",
-    "Diátaxis",
-]
-version="1.0.0"
 readme = "README.md"
-requires-python = ">=3.10,<3.14"
 license = "CC-BY-4.0"
 license-files = ["LICENSE.md"]
-maintainers = [
-    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
-]
 authors = [
     { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
 ]
+maintainers = [
+    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
+]
+keywords = [
+    "CMS",
+    "Plone",
+    "Python",
+    "Cloudflare",
+    "Turnstile",
+    "integration",
+    "documentation",
+]
+version="1.0.0"
+requires-python = ">=3.10,<3.14"
 classifiers = [
     "Development Status :: 1 - Planning",
+    "Environment :: Web Environment",
+    "Framework :: Plone",
+    "Framework :: Plone :: 6.0",
+    "Framework :: Plone :: 6.1",
+    "Framework :: Plone :: Addon",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -28,6 +35,9 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Communications :: Email :: Filters",
+    "Topic :: Internet :: WWW/HTTP",
 ]
 
 [dependency-groups]
@@ -56,7 +66,11 @@ dev = [
 
 [project.urls]
 Repository = "https://github.com/collective/collective.volto.turnstile"
+Source = "https://github.com/collective/collective.volto.turnstile"
+Tracker = "https://github.com/collective/collective.volto.turnstile/issues"
 Documentation = "https://collectivevoltoturnstile.readthedocs.io/"
+Changelog = "https://github.com/collective/collective.volto.turnstile/blob/main/CHANGELOG.md"
+"Contributors" = "https://github.com/collective/collective.volto.turnstile/blob/main/CONTRIBUTORS.md"
 
 [build-system]
 requires = ["setuptools"]

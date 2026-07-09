@@ -8,13 +8,19 @@ requires-python = ">=3.10,<3.14"
 authors = [
     { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
 ]
+maintainers = [
+    { name = "Leonardo J. Caballero G.", email = "leonardocaballero@gmail.com" },
+]
 keywords = [
     "CMS",
     "Plone",
     "Python",
+    "Cloudflare",
+    "Turnstile",
+    "integration",
 ]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Environment :: Web Environment",
     "Framework :: Plone",
     "Framework :: Plone :: 6.0",
@@ -27,13 +33,15 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Topic :: Communications :: Email",
+    "Topic :: Communications :: Email :: Filters",
+    "Topic :: Internet :: WWW/HTTP",
 ]
 dependencies = [
     "Products.CMFPlone",
     "plone.api",
     "plone.restapi",
     "plone.volto",
-    
 ]
 
 [project.optional-dependencies]
@@ -56,7 +64,9 @@ Homepage = "https://github.com/collective/collective.volto.turnstile"
 PyPI = "https://pypi.org/project/collective.volto.turnstile"
 Source = "https://github.com/collective/collective.volto.turnstile"
 Tracker = "https://github.com/collective/collective.volto.turnstile/issues"
-
+Documentation = "https://collectivevoltoturnstile.readthedocs.io/"
+Changelog = "https://github.com/collective/collective.volto.turnstile/blob/main/CHANGELOG.md"
+"Contributors" = "https://github.com/collective/collective.volto.turnstile/blob/main/CONTRIBUTORS.md"
 
 [project.entry-points."plone.autoinclude.plugin"]
 target = "plone"
