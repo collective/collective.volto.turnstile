@@ -9,8 +9,7 @@ myst:
 
 # Development
 
-The development of this add-on is done in isolation using a new approach using pnpm workspaces and latest `mrs-developer` and other Plone core improvements.
-For this reason, it only works with pnpm and Volto 18 (currently in alpha).
+The development of this add-on is done in isolation using the Plone core improvements.
 
 
 ## Prerequisites ✅
