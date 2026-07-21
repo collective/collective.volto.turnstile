@@ -7,24 +7,26 @@ myst:
     "keywords": "Plone, Cloudflare Turnstile integration with Plone, how-to, guides"
 ---
 
-# How-to guides
+# General information
 
 This part of the documentation contains how-to guides, including installation and usage.
 
 ## Features
 
 - Control panel in Plone registry to manage ``Cloudflare Turnstile`` settings.
+
 - RestApi endpoint that exposes these settings for Volto.
 
 ## Volto integration
 
-To use this product in Volto, your Volto project needs to include a new add-on: https://github.com/collective/volto-turnstile
+To use this product in Volto, you needs to include the following add-on in your project: https://github.com/collective/volto-turnstile
 
 ## Translations
 
 This product has been translated into
 
 - English
+
 - Spanish
 
 ## Compatibility
@@ -47,36 +49,14 @@ Go to the `Site setup`, next to the `Add-ons` control panel, find the `collectiv
 
 To use this add-on, go to the `Site setup`, next to the ``Add-on Configuration`` icon, as shown below:
 
-<img width="290" alt="image" src="../../images/addon-configuration-cloudflare-turnstile-icon.png" alt="Add-on Configuration">
+<img width="290" alt="Add-on Configuration" src="../images/addon-configuration-cloudflare-turnstile-icon.png">
 
 This `Cloudflare Turnstile Settings`, you can access the control panel, as shown below:
 
-<img width="720" alt="image" src="../../images/cloudflare-turnstile-settings.png" alt="Cloudflare Turnstile Settings">
+<img width="720" alt="Cloudflare Turnstile Settings" src="../images/cloudflare-turnstile-settings.png">
 
 In this control panel, you can configure the following fields:
 
 - ``Site Key`` **(public key)**.
 
 - ``Site Secret`` **(private key)**.
-
-## Security access
-
-The  `collective.volto.turnstile` add-on includes the following roles and permissions:
-
-### Roles
-
-- ``Cloudflare Turnstile`` role (**NEW!!!**).
-
-### Permissions
-
-- ``volto.turnstile: Manage Cloudflare Turnstile Settings`` permission (**NEW!!!**) grants access to the following roles:
-
-  - ``Cloudflare Turnstile`` role.
-
-- The ``Plone Site Setup: Overview`` permission grants access to the `Site Setup: Overview ` view to the following roles:
-
-  - The ``Manager`` role.
-
-  - The ``Site Administrator`` role.
-
-  - The ``Cloudflare Turnstile`` role.

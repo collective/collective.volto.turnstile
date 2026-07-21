@@ -16,13 +16,13 @@ An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/product
 
 **Add-on Configuration Access**
 
-<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/addon-configuration-cloudflare-turnstile-icon.png">
+<img width="290" alt="Add-on Configuration" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/source/images/addon-configuration-cloudflare-turnstile-icon.png">
 
 ---
 
 **Cloudflare Turnstile Settings control panel**
 
-<img width="720" alt="Cloudflare Turnstile Settings" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/cloudflare-turnstile-settings.png">
+<img width="720" alt="Cloudflare Turnstile Settings" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/source/images/cloudflare-turnstile-settings.png">
 
 ## Volto integration
 
@@ -117,7 +117,7 @@ Developed with the support of:
 
 - [Instituto Municipal de Deportes - IMD, Seville City Council, Spain](https://imd.sevilla.org/).
 
-  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/images/imd-ayto-logo.svg">
+  <img width="200" alt="IMD Logo" src="https://raw.githubusercontent.com/collective/collective.volto.turnstile/refs/heads/main/docs/source/images/imd-ayto-logo.svg">
 
 ### Acknowledgements 🙏
 
