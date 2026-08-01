@@ -21,14 +21,14 @@ class TurnstileSiteKeyGet(Service):
             )
 
             return {
-                "@id": f"{self.context.absolute_url()}/@turnstile-sitekey",
+                "@id": f"{self.context.absolute_url()}/@cloudflare-turnstile-sitekey",
                 "site_key": site_key,
             }
         except Exception as e:
             # Log the error but return a default test key
             # to prevent the widget from breaking
             return {
-                "@id": f"{self.context.absolute_url()}/@turnstile-sitekey",
+                "@id": f"{self.context.absolute_url()}/@cloudflare-turnstile-sitekey",
                 "site_key": "1x00000000000000000000AA",
                 "error": str(e),
             }

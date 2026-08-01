@@ -9,7 +9,7 @@
       factory=".site_key.TurnstileSiteKeyGet"
       for="Products.CMFCore.interfaces.ISiteRoot"
       permission="zope2.View"
-      name="@turnstile-sitekey"
+      name="@cloudflare-turnstile-sitekey"
       />
 
 </configure>
