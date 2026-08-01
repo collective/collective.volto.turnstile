@@ -239,7 +239,7 @@ autodoc_class_signature = "separated"
 # -- Options for sphinx_sitemap to html -----------------------------
 
 # Used by sphinx_sitemap to generate a sitemap
-html_baseurl = "https://collectivevoltoturnstile.readthedocs.io/"
+html_baseurl = "https://collectivevoltoturnstile.readthedocs.io/en/latest/"
 # https://sphinx-sitemap.readthedocs.io/en/latest/advanced-configuration.html#customizing-the-url-scheme
 sitemap_url_scheme = "{link}"
 sitemap_filename = "sitemap-custom.xml"
@@ -287,7 +287,7 @@ mermaid_version = "11.2.0"
 
 
 # -- OpenGraph configuration ----------------------------------
-ogp_site_url = "https://collectivevoltoturnstile.readthedocs.io/"
+ogp_site_url = "https://collectivevoltoturnstile.readthedocs.io/en/latest/"
 ogp_description_length = 200
 ogp_image = "https://collectivevoltoturnstile.readthedocs.io/en/latest/_static/logo.svg"
 ogp_site_name = "Cloudflare Turnstile integration with Plone Documentation"
@@ -325,7 +325,7 @@ tippy_props = {
 # -- Options for HTML help output -------------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "Cloudflare Turnstile integration with PloneDocumentation"
+htmlhelp_basename = "Cloudflare_Turnstile_integration_with_Plone_Documentation"
 
 
 # -- Options for LaTeX output -------------------------------------------------
@@ -335,7 +335,7 @@ htmlhelp_basename = "Cloudflare Turnstile integration with PloneDocumentation"
 latex_documents = [
     (
         "index",
-        "Cloudflare Turnstile integration with PloneDocumentation.tex",
+        "Cloudflare_Turnstile_integration_with_Plone_Documentation.tex",
         "Cloudflare Turnstile integration with Plone Documentation",
         author,
         "manual",

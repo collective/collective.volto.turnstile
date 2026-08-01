@@ -50,7 +50,7 @@ add-on
     -   [Add-ons tagged with the trove classifier `Framework :: Plone` on PyPI](https://pypi.org/search/?c=Framework+%3A%3A+Plone)
 
 plone.restapi
-    [plone.restapi](https://plonerestapi.readthedocs.io/) is the RESTful hypermedia API for {term}`Plone`.
+    [plone.restapi](https://6.docs.plone.org/plone.restapi/docs/source/) is the RESTful hypermedia API for {term}`Plone`.
     It enables {term}`Volto` and other clients to interact with {term}`Plone` content and configuration over HTTP using JSON.
     This {term}`add-on` registers its services and control panel adapters through ``plone.restapi``.
     It is used by {term}`collective.volto.turnstile` to expose the {term}`@cloudflare-turnstile-settings` endpoint to the {term}`Volto` frontend.
@@ -82,13 +82,17 @@ collective.volto.turnstile
     a mailing list, and a browser layer ({term}`ICloudflareTurnstileLayer`) to scope its components.
     It is designed to work together with the {term}`volto-turnstile` {term}`Volto` {term}`add-on`.
 
-    **Tip:** More infomation checkout the official [documentation](https://collectivevoltoturnstile.readthedocs.io/).
+    ```{tip}
+    More infomation checkout the official [documentation](https://collectivevoltoturnstile.readthedocs.io/en/latest/).
+    ```
 
 volto-turnstile
     `volto-turnstile` is the {term}`Volto` {term}`add-on` that integrates {term}`Cloudflare Turnstile` sevice into a {term}`Plone` site via the {term}`collective.volto.turnstile` {term}`add-on`.
     It provides a control panel to configure the target municipality.
 
-    **Tip:** More infomation checkout the official [documentation](https://volto-turnstile.readthedocs.io/).
+    ```{tip}
+    More infomation checkout the official [documentation](https://volto-turnstile.readthedocs.io/en/latest/).
+    ```
 
 ICloudflareTurnstileLayer
     ``ICloudflareTurnstileLayer`` is a browser layer marker interface provided by this {term}`add-on`.
@@ -113,15 +117,21 @@ secret_key
     A REST API endpoint exposed by {term}`collective.volto.turnstile` that provides the {term}`Cloudflare Turnstile Settings` to the {term}`Volto` frontend.
     Anonymous users cannot access the {term}`Plone` registry directly, so this dedicated endpoint is used instead.
 
-    **Example:** Take a look to the {ref}`cloudflare-turnstile-settings-route` section.
+    ```{note}
+    Take a look to the {ref}`cloudflare-turnstile-settings-route` section.
+    ```
 
 @cloudflare-turnstile-sitekey
     A REST API endpoint exposed by {term}`collective.volto.turnstile` that allows {term}`Volto` can acces publicy to the {term}`Site Key` value.
-    This endpoint is public (no authentication required) because the {term}`Site Key` must be accessible to anonymous users for the {term}`TurnstileWidget` component to work.
+    This endpoint is public (no authentication required) because the {term}`Site Key` must be accessible to anonymous users for the {term}`TurnstileWidget`
+    component to work.
 
-    **Example:** Take a look to the {ref}`cloudflare-turnstile-sitekey-route` section.
+    ```{note}
+    Take a look to the {ref}`cloudflare-turnstile-sitekey-route` section.
+    ```
 
 TurnstileWidget
-    The {term}`volto-turnstile` {term}`add-on` provides a `React` component called `TurnstileWidget`, which you can use in your {term}`Volto` project to secure your form using the {term}`Cloudflare Turnstile` service.
+    The {term}`volto-turnstile` {term}`add-on` provides a `React` component called `TurnstileWidget`, which you can use in your {term}`Volto` project
+    to secure your form using the {term}`Cloudflare Turnstile` service.
 
 ```

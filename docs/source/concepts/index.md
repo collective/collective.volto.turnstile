@@ -12,7 +12,7 @@ myst:
 Functional concepts of integration with {term}`Cloudflare Turnstile` in {term}`Plone` and {term}`Volto`.
 
 Integrating {term}`Cloudflare Turnstile` into a {term}`Plone` and {term}`Volto` ecosystem involves bridging a Python-based
-backend package ({term}`collective.volto.turnstile`) with a JavaScript/React frontend add-on ({term}`volto-turnstile`).
+backend package ({term}`collective.volto.turnstile`) with a JavaScript/React frontend {term}`add-on` ({term}`volto-turnstile`).
 This architecture ensures seamless anti-spam protection for public-facing forms (such as contact forms and newsletter
 subscriptions) while maintaining strict security boundaries.
 
@@ -58,7 +58,7 @@ endpoints or settings required for frontend rendering must be carefully handled:
 
 * **Resolution Pattern:** To prevent authorization errors in public components like footers or public forms, the public {term}`Site Key`
    should either be bundled securely into frontend runtime configurations (`config.settings`) or exposed via a dedicated unauthenticated
-   public service endpoint provided by the backend add-on.
+   public service endpoint provided by the backend {term}`add-on`.
 
 ### C. Frontend Lifecycle and State Management
 
@@ -67,11 +67,11 @@ The integration relies on reactive state management within {term}`Volto` compone
 1. **Initialization:** The {term}`TurnstileWidget` mounts in the DOM using a fallback or pre-configured site key while fetching dynamic
    configuration when permissions allow.
 
-2. **Token Generation:** When a user passes the Cloudflare challenge, the widget generates a unique, short-lived cryptographic token.
+2. **Token Generation:** When a user passes the {term}`Cloudflare Turnstile` challenge, the widget generates a unique, short-lived cryptographic token.
 
 3. **State Binding:** The `onSuccess(token)` callback updates the local component state (`turnstileToken`), enabling submission buttons
    that were previously disabled.
 
 4. **Submission & Verification:** Form actions package the user input along with the `turnstileToken`. The backend intercepts this token,
-   validates it securely server-side with Cloudflare using the {term}`Secret Key`, and either processes or rejects the request based on
+   validates it securely server-side with {term}`Cloudflare Turnstile` using the {term}`Secret Key`, and either processes or rejects the request based on
    the verification outcome.

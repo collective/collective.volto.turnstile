@@ -100,7 +100,9 @@ X-Powered-By: Zope (www.zope.dev), Python (www.python.org)
 
 That means you were updated the values in the {term}`Cloudflare Turnstile Settings` control panel fields correctly!
 
-**NOTE:** You can validate the update operation, going to ``Site setup > Add-on Settings > Cloudflare Turnstile Settings``.
+```{note}
+You can validate the update operation, going to ``Site setup > Add-on Settings > Cloudflare Turnstile Settings``.
+```
 
 ---
 
