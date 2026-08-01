@@ -4,5 +4,6 @@
     >
 
   <include package=".controlpanels" />
+  <include package=".turnstile" />
 
 </configure>
