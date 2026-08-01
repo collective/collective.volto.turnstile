@@ -1,0 +1,1 @@
+Updated the unit test coverage for this add-on [macagua]
