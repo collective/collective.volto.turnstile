@@ -8,8 +8,11 @@ An integration for the [Cloudflare Turnstile](https://www.cloudflare.com/product
 
 ## Features
 
-- Control panel in Plone registry to manage ``Cloudflare Turnstile`` settings.
-- RestApi endpoint that exposes these settings for Volto.
+- Control panel in Plone registry to manage `Cloudflare Turnstile` settings.
+
+- A Restricted RESTful API endpoint that exposes these settings for Volto.
+
+- A Public RESTful API endpoint to get the `Site key` from the `Cloudflare Turnstile` settings.
 
 
 ## Screenshot
@@ -33,6 +36,7 @@ To use this product in Volto, your Volto project needs to include a new add-on: 
 This product has been translated into
 
 - English
+
 - Spanish
 
 ## Compatibility

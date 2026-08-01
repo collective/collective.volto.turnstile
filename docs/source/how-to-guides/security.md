@@ -1,15 +1,15 @@
 ---
 myst:
   html_meta:
-    "description": "Cloudflare Turnstile integration with Volto how-to guides"
-    "property=og:description": "Cloudflare Turnstile Volto how-to guides"
-    "property=og:title": "Cloudflare Turnstile integration with Volto how-to guides"
-    "keywords": "Plone, Cloudflare Turnstile integration with Volto, how-to, guides"
+    "description": "Cloudflare Turnstile integration with Plone how-to guides"
+    "property=og:description": "Cloudflare Turnstile Plone how-to guides"
+    "property=og:title": "Cloudflare Turnstile integration with Plone how-to guides"
+    "keywords": "Cloudflare, Turnstile, service, Plone, integration, documentation, how-to, guides"
 ---
 
 # Security access
 
-The  `collective.volto.turnstile` add-on includes the following roles and permissions:
+The {term}`collective.volto.turnstile` {term}`add-on` includes the following roles and permissions:
 
 ## Roles
 

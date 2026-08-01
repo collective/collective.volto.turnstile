@@ -337,7 +337,7 @@ latex_documents = [
         "index",
         "Cloudflare Turnstile integration with PloneDocumentation.tex",
         "Cloudflare Turnstile integration with Plone Documentation",
-        "collective community",
+        author,
         "manual",
     ),
 ]

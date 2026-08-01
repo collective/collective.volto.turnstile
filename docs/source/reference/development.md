@@ -4,13 +4,12 @@ myst:
     "description": "Cloudflare Turnstile integration with Plone development guides"
     "property=og:description": "Cloudflare Turnstile Plone development guides"
     "property=og:title": "Cloudflare Turnstile integration with Plone development guides"
-    "keywords": "Plone, Cloudflare, Turnstile, integration, development, guides"
+    "keywords": "Cloudflare, Turnstile, service, Plone, integration, documentation, development, guides"
 ---
 
 # Development
 
-The development of this add-on is done in isolation using the Plone core improvements.
-
+The development of this {term}`add-on` is done in isolation using the {term}`Plone` core improvements.
 
 ## Prerequisites ✅
 
@@ -36,7 +35,113 @@ The development of this add-on is done in isolation using the Plone core improve
     ```
 
 
-### Add features using `plonecli` or `bobtemplates.plone`
+## Make convenience commands
+
+Run `make help` to list the available commands.
+
+```text
+help                             Show this help
+check                            Check and fix code base according to Plone standards
+clean                            Clean installation and instance (data left intact)
+console                          Start a console into a Plone instance
+create-site                      Create a new site from scratch
+format                           Check and fix code base according to Plone standards
+help                             This help message
+install                          Install Plone and dependencies
+lint                             Check and fix code base according to Plone standards
+release                          Create a release
+remove-data                      Remove all content
+start                            Start a Plone instance on localhost:8080
+sync                             Sync project dependencies
+test                             run tests
+test-coverage                    run tests with coverage
+```
+
+## Development environment set up
+
+Install package requirements.
+
+```shell
+make install
+```
+
+## Start developing
+
+Start the backend.
+
+```shell
+make sync
+```
+
+In a separate terminal session, start the frontend.
+
+```shell
+make start
+```
+
+## Lint code
+
+Run Python tools in analyze mode.
+
+```shell
+make lint
+```
+
+## Format code
+
+Run Python tools in fix mode.
+
+```shell
+make format
+```
+
+## i18n
+
+Extract the i18n messages to locales.
+
+```shell
+make i18n
+```
+
+## Unit tests
+
+Run unit tests.
+
+```shell
+make test
+```
+
+Run unit tests with coverage report.
+
+```shell
+make test-coverage
+```
+
+## Contents
+
+Create a new site from scratch
+
+```shell
+make create-site
+```
+
+Remove all content
+
+```shell
+make remove-data
+```
+
+## Releases
+
+Create a release of this {term}`add-on`
+
+```shell
+make release
+```
+
+---
+
+## Add features using `plonecli` or `bobtemplates.plone`
 
 This package provides markers as strings (`<!-- extra stuff goes here -->`) that are compatible with [`plonecli`](https://github.com/plone/plonecli) and [`bobtemplates.plone`](https://github.com/plone/bobtemplates.plone).
 These markers act as hooks to add all kinds of subtemplates, including behaviors, control panels, upgrade steps, or other subtemplates from `plonecli`.
@@ -59,7 +164,7 @@ You can add a behavior with the following command.
 make add behavior
 ```
 
-#### See also:
+### See also:
 
 You can check the list of available subtemplates in the [`bobtemplates.plone` `README.md` file](https://github.com/plone/bobtemplates.plone/?tab=readme-ov-file#provided-subtemplates).
 See also the documentation of [Mockup and Patternslib](https://6.docs.plone.org/classic-ui/mockup.html) for how to build the UI toolkit for Classic UI.

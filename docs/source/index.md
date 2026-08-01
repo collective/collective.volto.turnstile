@@ -4,16 +4,16 @@ myst:
     "description": "An integration for the Cloudflare Turnstile service with Plone"
     "property=og:description": "An integration for the Cloudflare Turnstile service with Plone"
     "property=og:title": "Cloudflare Turnstile integration with Plone"
-    "keywords": "Cloudflare Turnstile integration with Plone, documentation, An integration for the Cloudflare Turnstile service with Plone"
+    "keywords": "Cloudflare, Turnstile, service, Plone, integration, documentation"
 ---
 
 # Cloudflare Turnstile integration with Plone
 
-Welcome to the documentation for `Cloudflare Turnstile` integration with Plone!
+Welcome to the documentation for {term}`Cloudflare Turnstile` integration with {term}`Plone`!
 
 <img width="400" alt="Cloudflare Turnstile Logo" src="./_static/logo.svg">
 
-An integration for the `Cloudflare Turnstile` service with Plone integration.
+An integration for the {term}`Cloudflare Turnstile` service with {term}`Plone` integration.
 
 ---
 
