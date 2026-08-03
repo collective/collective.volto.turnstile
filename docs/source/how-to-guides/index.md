@@ -9,7 +9,7 @@ myst:
 
 # General information
 
-This part of the documentation contains how-to guides, including installation and usage.
+This part of the documentation contains how-to guides, and including installation and usage.
 
 ## Features
 
@@ -25,7 +25,7 @@ To use this product in {term}`Volto`, you needs to include the following {term}`
 
 ## Translations
 
-This product has been translated into
+This product support the following languages:
 
 - English
 
@@ -45,8 +45,8 @@ pip install collective.volto.turnstile
 
 ## Enable it
 
-Visit http://localhost:8080/Plone in a browser, login, so go to the `Site setup`, next to the `Add-ons` control panel, 
-find the {term}`collective.volto.turnstile` {term}`add-on` and click on the `Install` button for enabled it.
+Visit http://localhost:8080/Plone in a browser, login, so go to `Site setup`, next to `Add-ons` control panel,
+find the {term}`collective.volto.turnstile` {term}`add-on` and select the `Install` button for enabled it.
 
 ## Settings it
 
@@ -67,7 +67,7 @@ In this control panel, you can configure the following fields:
 ## Use it
 
 To use the {term}`Cloudflare Turnstile` integration you need add the {term}`volto-turnstile` {term}`add-on`, in
-your {term}`Volto` project and use the amazain features incluided.
+your {term}`Volto` project and use the amazing features into this {term}`add-on.
 
 ```{tip}
 For example, to secure your forms, you need yo use the {term}`TurnstileWidget` component from the {term}`volto-turnstile`

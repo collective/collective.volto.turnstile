@@ -74,7 +74,7 @@ Registry
 
 GenericSetup
     A {term}`Plone` framework for managing configuration through filesystem-based import and export profiles.
-    {term}`collective.volto.turnstile` uses a GenericSetup profile to register its registry records and control panel on installation.
+    {term}`collective.volto.turnstile` uses a `GenericSetup` profile to register its registry records and control panel on installation.
 
 collective.volto.turnstile
     `collective.volto.turnstile` is the {term}`Plone` {term}`add-on` that integrates {term}`Cloudflare Turnstile` sevice into a {term}`Plone` site.
@@ -100,7 +100,7 @@ ICloudflareTurnstileLayer
 
 ICloudflareTurnstileSettings
     ``ICloudflareTurnstileSettings`` is the Zope schema interface that declares the configuration fields for the {term}`Cloudflare Turnstile` {term}`add-on`.
-    Currently it defines the fields ({term}`site_key` and {term}`secret_key`).
+    Currently it defines the fields ({term}`site_key`, and {term}`secret_key`).
     It is used as the schema for both the {term}`Cloudflare Turnstile Settings` control panel and the {term}`Plone` {term}`Registry` records.
 
 Site Key
